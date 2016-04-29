@@ -1,0 +1,1 @@
+gcc -o main dllmain.c dllops.c
