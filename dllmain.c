@@ -17,8 +17,6 @@ int main()
 		printf("=====Press 'A' to append a node into the list==\n");
 		printf("=====Press 'I' to insert a node into the list==\n");
 		printf("=====Press 'R' to remove a node from the list==\n");
-		printf("=====Press 'S' to sort the list================\n");
-		printf("=====Press 'D' to clear the list===============\n");
 		printf("=====Press 'Q' to quit=========================\n");
 		printf("===============================================\n");
 		scanf("%c", &menuselect);
@@ -105,13 +103,6 @@ int main()
 				temp = temp->next;
 			}
 			myList = getNode(myList, &temp);
-			break;
-		case 'S':
-			//sortList(myList);
-			       myList=sortList(myList);
-			break;
-		case 'D':
-			//        myList=clearlist(myList);
 			break;
 		case 'Q':
 			printf("Goodbye, cruel world\n");

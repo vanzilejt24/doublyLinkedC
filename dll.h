@@ -23,7 +23,4 @@ List *build();
 List *insert(List * myList, Node * place, Node * newNode);
 void displayf(List * myList);
 void displayb(List * myList);
-List *sortList(List * myList);
-List *mklist();
-Node *create();
 #endif
